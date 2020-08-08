@@ -1,0 +1,11 @@
+Instalation instructions:
+    Place this module somewhere in the PYTHONPATH
+    e.g. the desktop after setting PYTHONPATH=C:\Users\srgang\Desktop\ 
+    may be more proper in the long term to instead install this as a 
+    system package
+
+Startup instructions:
+    run python -m labd.init in a cmd terminal
+
+Example usage:
+    see examples.test_visa.py
