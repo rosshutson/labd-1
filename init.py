@@ -79,9 +79,9 @@ async def handle_request(reader, writer):
 
 
 async def main():
-    server = await asyncio.start_server(handle_request, 'localhost', 4292)
+    server = await asyncio.start_server(handle_request, '0.0.0.0', 4292)
     async with server:
         await server.serve_forever()
 
 
-asyncio.run(main())
+asyncio.run(main(), debug=False)
