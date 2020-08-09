@@ -1,4 +1,4 @@
-Instalation instructions:
+Installation instructions:
     Place this module somewhere in the PYTHONPATH
     e.g. the desktop after setting PYTHONPATH=C:\Users\srgang\Desktop\ 
     may be more proper in the long term to instead install this as a 
